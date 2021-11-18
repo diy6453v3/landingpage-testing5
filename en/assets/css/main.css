@@ -1,0 +1,286 @@
+@charset "UTF-8";
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.banner img {
+    margin: 20px;
+}
+
+.banner button {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2.625rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+h3 {
+    color: #083CF9;
+}
+
+p {
+    margin: 0;
+    padding: 14px 0;
+}
+
+.title {
+    padding: 0 0 1px 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    right: 40%;
+    bottom: 0;
+    left: 40%;
+    background: #083CF9;
+}
+
+.title2 {
+    padding: 0 0 1px 0;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    right: 70%;
+    bottom: 0;
+    left: 0%;
+    background: #083CF9;
+}
+
+.p2 {
+    margin: 0;
+    padding-top: 12px;
+    color: #666;
+}
+
+.mg {
+    padding: 100px 0;
+}
+
+.mg2 {
+    padding: 100px 0 0 0;
+}
+
+.mg3 {
+    padding: 60px 0;
+}
+
+.mg4 {
+    padding: 40px 0;
+}
+
+.mg5 {
+    padding-right: 10px;
+}
+
+button {
+    margin-top: 40px;
+}
+
+
+/* header */
+
+.header {
+    background: #fff;
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-btn img {
+    width: 25px;
+}
+
+.header-btn:hover {
+    color: #000;
+}
+
+.header-btn {
+    background: #ffbf2c;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+
+/* banner */
+
+.banner {
+    padding: 60px 0;
+    background: url(../images/bg.png);
+    background-size: cover;
+    background-position-x: 35%;
+}
+
+.banner-content {
+    color: #000;
+    margin: 20px 0;
+}
+
+.form-card {
+    background: #fff;
+    padding: 35px 30px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border: 1px solid #ced4da;
+    box-shadow: none;
+}
+
+.banner img {
+    max-width: 90%;
+}
+
+
+/*advan*/
+
+.cardd {
+    border: 1px solid #24ACFF;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 30px;
+}
+
+.carddd {
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 30px;
+    background: #fff;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+
+/* point */
+
+.point {
+    background: url(../images/maps.png);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.point-b {
+    margin-bottom: 30px;
+}
+
+.point-r {
+    top: 20%;
+}
+
+.pr {
+    margin: 60px 0;
+}
+
+
+/*step*/
+
+.step {
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    color: #000;
+}
+
+.step .container {
+    max-width: 1000px;
+}
+
+
+/* footer */
+
+.footer {
+    background: #DFE1E1;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: #adadae;
+    font-size: 0.8rem;
+}
+
+.contact {
+    padding: 25px 0 15px 0;
+    margin: 30px 0 60px 0;
+    border: 1px solid #4f4f4f;
+    border-radius: 5px;
+}
+
+.contact img {
+    width: 40px;
+}
+
+.footer a {
+    color: #adadae;
+}
+
+.pc {
+    display: block;
+}
+
+.mob {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        line-height: 1;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .contact {
+        display: none;
+    }
+    .mg {
+        padding: 60px 0;
+    }
+    .mg2 {
+        padding: 60px 0 0 0;
+    }
+    .mg3 {
+        padding: 30px 0;
+    }
+    .p3 {
+        margin-bottom: 35px;
+    }
+    .pc {
+        display: none;
+    }
+    .mob {
+        display: block;
+    }
+    .intro img {
+        margin-bottom: 30px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
