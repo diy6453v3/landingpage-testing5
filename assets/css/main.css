@@ -149,6 +149,11 @@ h5 span {
     transform: scale(1.1, 1.1);
 }
 
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 
 /* footer */
 
