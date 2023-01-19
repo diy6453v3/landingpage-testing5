@@ -302,22 +302,6 @@
                         color: rgb(13, 54, 92);
                     }
                     
-                    @media (max-width: 630px) {
-                        .footer-group {
-                            display: block;
-                        }
-                        .footer-logo {
-                            width: 50%;
-                            display: block;
-                            text-align: center;
-                            margin: 0 auto;
-                        }
-                        .footer-links {
-                            justify-content: center;
-                            margin-top: 10px;
-                        }
-                    }
-                    
                     @media (max-width: 400px) {
                         .footer-link-item {
                             font-size: 12px;
@@ -343,6 +327,21 @@
                         width: 100%;
                     }
                     
-                    span {
-                        font-size: 30px;
+                    @media (max-width: 630px) {
+                        .footer-group {
+                            display: block;
+                        }
+                        .footer-logo {
+                            width: 50%;
+                            display: block;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                        .footer-links {
+                            justify-content: center;
+                            margin-top: 10px;
+                        }
+                        .banner_title h1 {
+                            font-size: 50px;
+                        }
                     }
